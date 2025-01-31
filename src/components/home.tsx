@@ -23,7 +23,7 @@ const BirthdayPage = () => {
             <Navbar />
 
             <motion.div 
-                className="relative w-full max-w-2xl p-6 bg-white shadow-lg rounded-lg my-8 mx-auto"
+                className="relative w-full max-w-3xl p-6 bg-white shadow-lg rounded-lg my-8 mx-auto"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
@@ -52,9 +52,9 @@ const BirthdayPage = () => {
                     transition={{ duration: 1, delay: 1.5 }}
                 >
                     <img 
-                        src="https://source.unsplash.com/600x400/?birthday,cake" 
+                        src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJpcnRoZGF5JTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D" 
                         alt="Birthday Cake" 
-                        className="rounded-lg shadow-md mx-auto w-full sm:w-96 md:w-full"
+                        className="rounded-lg shadow-md mx-auto w-full h-96 sm:w-96 md:w-full"
                     />
                 </motion.div>
 
@@ -71,7 +71,11 @@ const BirthdayPage = () => {
             </motion.div>
 
 
-            <audio id="birthdaySong" src="https://www.bensound.com/bensound-music/bensound-sunny.mp3"></audio>
+            <audio id="birthdaySong">
+  <source src="/hbg.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
         </div>
     );
 };

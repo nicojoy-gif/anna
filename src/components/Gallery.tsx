@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const Gallery = () => {
     return (
-        <section className="px-6 py-8">
+        <section className="min-h-screen bg-pink-200 ">
               <Navbar />
             <motion.h2 
                 className="text-3xl font-semibold text-pink-600"
