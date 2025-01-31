@@ -9,7 +9,7 @@ const BirthdayPage = () => {
 
     // Initialize audio object once
     useEffect(() => {
-        const audioElement = new Audio('/hbg.mp3');
+        const audioElement = new Audio('/omah.mp3');
         audioElement.loop = true;
         setAudio(audioElement);
     }, []);
