@@ -46,7 +46,7 @@ const HowWeMet = () => {
                 We spent hours talking, learning about each other's lives, dreams, and passions. From that point on, it was clear—we were meant to be. The more I got to know you, the more I realized how perfect we were for each other. That first conversation, that first message, changed everything. 
             </motion.p>
             <motion.p 
-                className="text-lg sm:text-xl md:text-2xl text-gray-700 mt-6 px-6 md:px-12"
+                className="text-lg sm:text-xl md:text-2xl text-gray-700 py-6 px-6 md:px-12"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 3 }}

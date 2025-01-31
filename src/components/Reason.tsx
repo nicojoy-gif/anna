@@ -31,7 +31,7 @@ const ReasonsILoveYou = () => {
                 <li><strong>Your smile brightens my day no matter what:</strong> No matter how challenging the day may be, seeing you smile fills me with joy and reminds me of how lucky I am.</li>
                 <li><strong>We share the same dreams and ambitions:</strong> Whether we're talking about the future or taking on the present, your vision and determination inspire me every single day. Together, we are unstoppable.</li>
                 <li><strong>Your kindness is unmatched, and your heart is gold:</strong> You have an incredible ability to empathize with others and always put people before yourself. The world is a better place because of your loving soul.</li>
-                <li><strong>Every moment with you is unforgettable:</strong> Whether we’re laughing, talking, or even just sitting in silence, every moment with you is precious and fills my heart with joy.</li>
+                <li ><strong>Every moment with you is unforgettable:</strong> Whether we’re laughing, talking, or even just sitting in silence, every moment with you is precious and fills my heart with joy.</li>
             </motion.ul>
             <motion.div 
                 className="mt-8 px-6 md:px-12"
@@ -39,7 +39,7 @@ const ReasonsILoveYou = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 2 }}
             >
-                <p className="text-lg sm:text-xl text-gray-700 mt-4">
+                <p className="text-lg sm:text-xl text-gray-700 py-4">
                     These are just a few reasons why you mean the world to me, but I could write endless pages and still not capture the depth of my love for you. I am beyond grateful for you every day, and I can't wait to continue this beautiful journey together. 💕
                 </p>
             </motion.div>
